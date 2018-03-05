@@ -1,7 +1,7 @@
 // ===========================
 //          Updater
 // ===========================
-require('simple-git')(__dirname + '/zenpen')
+require('simple-git')(__dirname + '/pendesk-client')
      .pull()
      .tags((err, tags) => console.log("Latest available tag: %s", tags.latest));
 
@@ -28,13 +28,13 @@ const {app, BrowserWindow} = require('electron');
     win = new BrowserWindow({
     width: 900,
     height: 800,
-    title: "PenDesk ~ ZenDesk for PC by Graham Dianaty",
+    title: "PenDesk ~ Loading...",
     icon: path.join(__dirname, 'ico/png/64x64.png')
   });
 
     // and load the index.html of the app.
     win.loadURL(url.format({
-      pathname: path.join(__dirname, '/zenpen/index.html'),
+      pathname: path.join(__dirname, '/pendesk-client/index.html'),
       protocol: 'file:',
       slashes: true
     }));
