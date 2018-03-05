@@ -1,0 +1,26 @@
+{
+  "name": "pendesk",
+  "version": "1.0.0",
+  "description": "ZenPen for Desktop, with Auto-Update",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gdianaty/pendesk.git"
+  },
+  "author": "Graham Dianaty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gdianaty/pendesk/issues"
+  },
+  "homepage": "https://github.com/gdianaty/pendesk#readme",
+  "devDependencies": {
+    "electron": "^1.8.2"
+  },
+  "dependencies": {
+    "simple-git": "^1.92.0"
+  }
+}
