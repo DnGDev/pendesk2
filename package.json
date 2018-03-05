@@ -4,8 +4,7 @@
   "description": "ZenPen for Desktop, with Auto-Update",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
