@@ -1,3 +1,6 @@
 [submodule "zenpen"]
 	path = zenpen
 	url = https://github.com/tholman/zenpen.git
+[submodule "pendesk-client"]
+	path = pendesk-client
+	url = https://github.com/gdianaty/pendesk-client.git
