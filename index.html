@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- PAGE settings -->
+  <link rel="icon" href="favicon.ico">
+  <title>PenDesk</title>
+  <meta name="description" content="A distraction-free, destkop text editor.">
+  <meta name="keywords" content="markdown text editor desktop node electron">
+  <!-- CSS dependencies -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="neon.css">
+  <!-- Script: Make my navbar transparent when the document is scrolled to top -->
+  <script src="js/navbar-ontop.js"></script>
+  <!-- Script: Animated entrance -->
+  <script src="js/animate-in.js"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">PenDesk</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse text-center justify-content-end" id="navbar2SupportedContent">
+        <a class="btn navbar-btn mx-2 btn-primary shadowed" href="#download">Download</a>
+      </div>
+    </div>
+  </nav>
+  <!-- Cover -->
+  <div class="section-fade-out pt-5" style="background-image: url('assets/code2.png'); background-position:left top;">
+    <div class="container mt-5 pt-5">
+      <div class="row">
+        <div class="col-md-6 my-5 text-lg-left text-center align-self-center">
+          <h1 class="display-2">PenDesk</h1>
+          <p class="lead">Minimal writing environment for multiple platforms, based arround Electron and ZenPen.</p>
+          <div class="row mt-5">
+            <div class="col-md-12" style="transition: all 0.25s;">
+              <a class="btn navbar-btn mx-2 btn-primary shadowed" href="#download">Download</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img class="img-fluid d-block mx-auto" src="assets/text.png" width="400"> </div>
+      </div>
+    </div>
+  </div>
+  <!-- Article style section -->
+  <div class="py-5">
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-md-5 order-2 order-md-1 animate-in-left">
+          <img class="img-fluid d-block float-left my-3" src="assets/pendesk-screencap1.png" width="450"> </div>
+        <div class="col-md-7 align-self-center order-1 order-md-2 my-3 text-md-left text-center">
+          <h2>Easy, yet powerful</h2>
+          <p class="my-4 text-muted">PenDesk was designed arround ZenDesk, a virtually incredibly&nbsp;</p>
+          <a class="btn btn-outline-primary" href="#features">Learn more</a>
+        </div>
+      </div>
+      <div class="row pt-5">
+        <div class="align-self-center col-lg-7 text-md-left text-center">
+          <h2>Automatic Updates</h2>
+          <p class="my-4 text-muted">We understand the hassle of trying to update your application. By simply requiring "git" it is possible to pull the core of Pendesk right from the cloud, with no time wasted trying to install an update.
+            <br>No waiting on an updater inferface, No downloading update packages. Just run it and start writing. It's so seamless you won't even notice it.&nbsp;</p>
+          <a class="btn btn-primary shadowed" href="#download">Download</a>
+        </div>
+        <div class="align-self-center mt-5 col-lg-5 animate-in-right">
+          <img class="img-fluid d-block" src="assets/code.png"> </div>
+      </div>
+    </div>
+  </div>
+  <!-- Features -->
+  <!-- Features -->
+  <!-- Carousel reviews -->
+  <!-- Call to action -->
+  <div class="py-5 bg-primary" id="download">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 animate-in-left">
+          <img class="img-fluid d-block my-4 animate-slide-in mx-auto" src="assets/64x64.png" width="300"> </div>
+        <div class="col-md-6 align-self-center text-center text-md-left">
+          <h1><b>Download PenDesk</b></h1>
+          <p class="lead text-dark"><b class="text-white">Grab the latest copy from our Repository</b></p>
+          <div class="row mt-5">
+            <div class="col-3 col-lg-10">
+              <a href="#">
+                <img class="center-block img-fluid d-block float-left" src="assets/get-it-on-github.png" width="200"> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <div class="py-5 bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 my-3 text-center">
+          <p class="lead">Made with &lt;3 by Graham Dianaty</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- JavaScript dependencies -->
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- Script: Smooth scrolling between anchors in the same page -->
+  <script src="js/smooth-scroll.js"></script>
+  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 10px;right:10px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:180px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo&nbsp;&nbsp;
+    <img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16">
+  </pingendo>
+</body>
+
+</html>
