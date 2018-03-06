@@ -1,7 +1,7 @@
 // ===========================
 //          Updater
 // ===========================
-require('simple-git')(__dirname + '/bin')
+require('simple-git')(__dirname + '/vendor')
      .pull()
      .tags((err, tags) => console.log("Latest available tag: %s", tags.latest));
 
@@ -36,7 +36,7 @@ app.on("ready", function () {
         "min-height": 650
     });
 //  mainWindow.openDevTools();
-    mainWindow.loadURL("file://" + __dirname + "/bin/index.html");
+    mainWindow.loadURL("file://" + __dirname + "/vendor/index.html");
     mainWindow.on("closed", function () {
         mainWindow =  null;
     });
