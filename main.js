@@ -27,7 +27,7 @@ const {app, BrowserWindow} = require('electron');
     // Create the browser window.
     win = new BrowserWindow({
     width: 800,
-    height: 700,
+    height: 600,
     title: "PenDesk ~ Loading...",
     icon: path.join(__dirname, 'ico/png/64x64.png')
   });
