@@ -37,8 +37,8 @@
       "electronInstallerDebian": {},
       "electronInstallerRedhat": {},
       "github_repository": {
-        "owner": "Graham Dianaty",
-        "name": "PenDesk"
+        "owner": "gmdianaty",
+        "name": "pendesk"
       },
       "windowsStoreConfig": {
         "packageName": "",
