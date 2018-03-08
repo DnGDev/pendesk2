@@ -33,7 +33,7 @@
       },
       "electronWinstallerConfig": {
         "name": "Pendesk2",
-        "setupExe": "PenDesk-Installer.exe",
+        "setupExe": "PenDesk-Installer.exe"
       },
       "electronInstallerDebian": {},
       "electronInstallerRedhat": {},
