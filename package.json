@@ -12,7 +12,7 @@
     "lint": "eslint src --color"
   },
   "keywords": [],
-  "author": "gmdianaty",
+  "author": "gdianaty",
   "license": "MIT",
   "config": {
     "forge": {
