@@ -4,7 +4,6 @@
   "version": "1.0.1",
   "description": "A remake of the PenDesk tool, a zen desktop editor, in ElectronForge",
   "main": "src/index.js",
-  "setupExe": "PenDesk-Installer",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
@@ -19,7 +18,7 @@
     "forge": {
       "make_targets": {
         "win32": [
-          "wix"
+          "squirrel"
         ],
         "darwin": [
           "zip"
@@ -33,7 +32,8 @@
         "packageManager": "npm"
       },
       "electronWinstallerConfig": {
-        "name": "Pendesk2"
+        "name": "Pendesk2",
+        "setupExe": "PenDesk-Installer.exe",
       },
       "electronInstallerDebian": {},
       "electronInstallerRedhat": {},
