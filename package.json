@@ -19,7 +19,7 @@
     "forge": {
       "make_targets": {
         "win32": [
-          "squirrel"
+          "wix"
         ],
         "darwin": [
           "zip"
