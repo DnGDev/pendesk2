@@ -1,7 +1,7 @@
 {
   "name": "pendesk",
   "productName": "PenDesk2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A remake of the PenDesk tool, a zen desktop editor, in ElectronForge",
   "main": "src/index.js",
   "scripts": {
