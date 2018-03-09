@@ -1,4 +1,4 @@
 # pendesk
 A minimalist, offline writing environment.
 
-[![Build Status](http://galileo.gmdianaty.com:8080/job/PenDesk/badge/icon)](http://galileo.gmdianaty.com:8080/job/PenDesk)
+[![Build Status](https://galileo.gmdianaty.com/job/PenDesk/badge/icon)](https://galileo.gmdianaty.com/job/PenDesk/)
