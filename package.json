@@ -1,7 +1,7 @@
 {
   "name": "pendesk",
   "productName": "PenDesk2",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A remake of the PenDesk tool, a zen desktop editor, in ElectronForge",
   "main": "src/index.js",
   "scripts": {
@@ -33,7 +33,7 @@
       },
       "electronWinstallerConfig": {
         "name": "Pendesk2",
-        "setupExe": "PenDesk-Installer.exe"
+        "iconUrl": "https://raw.githubusercontent.com/gdianaty/pendesk/master/src/ico/ico/ico.ico" 
       },
       "electronInstallerDebian": {},
       "electronInstallerRedhat": {},
