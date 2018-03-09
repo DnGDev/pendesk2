@@ -32,7 +32,8 @@
         "packageManager": "npm"
       },
       "electronWinstallerConfig": {
-        "name": "Pendesk2"
+        "name": "Pendesk2",
+        "setupExe": "PenDesk-Installer.exe"
       },
       "electronInstallerDebian": {},
       "electronInstallerRedhat": {},
